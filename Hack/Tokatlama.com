@@ -13,7 +13,7 @@ for x in range(0,password_count):
     sale.append(password)
 print(sale)
 
-for i in range(0,10000):
+for i in range(0,password_count):
         if sf==sale[i]:
             print("şifre kirildi")
             print("kırılan şifre:",sale[i])
